@@ -91,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/texture-paper.webp");
     background-size: 280px 280px;
 }
 
@@ -651,7 +651,15 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: black!important;
+}
+
+.black-font{
+    color: rgb(0, 0, 0) !important;
+}
+
+.position-relative{
+    position: relative;
 }
 
 .container {
@@ -753,7 +761,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgb(27, 35, 59, 0.9);
     padding: 40px 40px 40px 40px;
 }
 
@@ -767,7 +775,7 @@ h4 {
 }
 
 .bgc-dark-slate-blue {
-    background-color: #364577;
+    background-color: #1B233B;
 }
 
 .bgc-atomic-tangerine {
@@ -780,7 +788,7 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: black!important;
 }
 
 .btn-atomic-tangerine:hover {
